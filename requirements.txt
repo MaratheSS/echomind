@@ -1,3 +1,12 @@
+streamlit==1.37.0
+pandas==2.2.2
+numpy==1.26.4
+
+
+
+
+
+
 altair==5.3.0
 annotated-types==0.6.0
 anyio==4.3.0
@@ -76,3 +85,4 @@ yt-dlp @ https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz
 zopfli==0.2.3
 # Optional: Azure Speech SDK for enhanced TTS (install separately if needed)
 # azure-cognitiveservices-speech
+
