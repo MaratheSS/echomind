@@ -3,7 +3,7 @@
  <img src="https://i.imgur.com/scoiUgD.png" alt="Generate Organized Notes with EchoMind" width="150">
  <br>
  <br>
- EchoMind: Generate organized notes from audio<br>using Groq, Whisper, and Llama
+ EchoMind: Generate organized notes from audio 
  <br>
 </h2>
 
@@ -244,3 +244,4 @@ Initial release of the application codebase with core features:
 ---
 
 **EchoMind © 2025** - Intelligent note generation powered by AI
+
