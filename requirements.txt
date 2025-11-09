@@ -1,7 +1,12 @@
+# Core dependencies
 streamlit==1.37.0
 pandas==2.2.2
 numpy==1.26.4
 
+# Build helpers to prevent wheel errors
+pip>=24.0
+setuptools>=68.0
+wheel>=0.43.0
 
 
 
@@ -84,5 +89,6 @@ websockets
 yt-dlp @ https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz
 zopfli==0.2.3
  
+
 
 
