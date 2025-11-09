@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  echomind:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: echomind
+    ports:
+      - "8501:8501"
+    environment:
+      # API Keys - Set these in .env file or pass as environment variables
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - AZURE_SPEECH_KEY=${AZURE_SPEECH_KEY:-}
+      - AZURE_REGION=${AZURE_REGION:-}
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+    volumes:
+      # Mount .env file if it exists
+      - ./.env:/app/.env:ro
+      # Persist database across container restarts
+      - echomind_data:/app/data
+      # Optional: Mount downloads directory for persistence
+      - ./downloads:/app/downloads
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+volumes:
+  echomind_data:
+    driver: local
+
