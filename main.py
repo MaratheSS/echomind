@@ -1502,7 +1502,7 @@ try:
                     
                     st.markdown("---")
         else:
-            st.info("📝 No saved notes yet. Generate notes to see them here!")
+            st.info("📝 No saved notes till yet. Generate notes to see them here!")
         
         st.write(f"---")
         
