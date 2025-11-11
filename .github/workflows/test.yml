@@ -45,7 +45,7 @@ jobs:
       - name: Streamlit health check
         run: |
           pip install streamlit
-          timeout 30s streamlit run your_app.py --server.headless true || echo "Streamlit app started successfully"
+          timeout 30s streamlit run main.py --server.headless true || echo "Streamlit app started successfully"
 
       # 🧱 7️⃣ (Optional) Docker build check
       - name: Build Docker image (optional)
