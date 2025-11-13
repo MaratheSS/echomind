@@ -1,6 +1,6 @@
 <h2 align="center">
  <br>
- <img src="https://i.imgur.com/scoiUgD.png" alt="Generate Organized Notes with EchoMind" width="150">
+ <img src="https://search.brave.com/images?q=voice+png&context=W3sic3JjIjoiaHR0cHM6Ly9jZG4uaWNvbnNjb3V0LmNvbS9pY29uL3ByZW1pdW0vcG5nLTI1Ni10aHVtYi9taWMtaWNvbi1zdmctZG93bmxvYWQtcG5nLTgyOTgyNDYucG5nP2Y9d2VicCZ3PTEyOCIsInRleHQiOiJNaWMgTWljcm9waG9uZSBWb2ljZSBJY29uIiwicGFnZV91cmwiOiJodHRwczovL2ljb25zY291dC5jb20vaWNvbnMvZ29vZ2xlLXZvaWNlIn1d&sig=70a9461ab71e9fa852609fc02c97fb98753bbfa1bd7702aa7f7d0cfdb17426d5&nonce=fb78d1712c09a0b6d59c31841df956b9&source=imageCluster" alt="Generate Organized Notes with EchoMind" width="150">
  <br>
  <br>
  EchoMind: Generate organized notes from audio 
@@ -210,14 +210,12 @@ Improvements through PRs are welcome! Please ensure your contributions:
 
 ### v2.0.0 - EchoMind Upgrade
 
-This release upgrades from ScribeWizard to EchoMind with the following new features:
-
-- 🧠 **Branding Update** - Complete rebranding to EchoMind
+ 
 - 🎨 **Visual Enhancements** - Added contextual icons and enhanced formatting for notes
 - 🔊 **Text-to-Speech** - Browser-based TTS for listening to generated notes
 - 🎤 **Real-Time Recording** - Live audio recording directly in browser
 - 👥 **Speaker Identification** - Automatic speaker detection and analysis
-- 📄 **Enhanced PDF Export** - Improved PDF generation with EchoMind branding
+- 📄 **Enhanced PDF Export** - Improved PDF generation 
 - 🔒 **Secure API Key Handling** - All keys stored in `.env` file
 - 📋 **Professional Footer** - Added creator information and institution details
 
@@ -244,4 +242,5 @@ Initial release of the application codebase with core features:
 ---
 
 **EchoMind © 2025** - Intelligent note generation powered by AI
+
 
