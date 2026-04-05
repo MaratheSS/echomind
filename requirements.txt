@@ -30,14 +30,14 @@ jsonschema-specifications==2023.12.1
 markdown-it-py==3.0.0
 markdown2==2.4.13
 MarkupSafe==2.1.5
-md2pdf==1.0.1
+# md2pdf removed (using fpdf2)
 mdurl==0.1.2
 mutagen==1.47.0
 networkx==3.2.1
-matplotlib==3.8.2
-numpy==1.26.4
+matplotlib>=3.8.0
+numpy>=1.26.0
 packaging==24.0
-pandas==2.2.2
+pandas>=2.2.2
 pillow==10.3.0
 protobuf==4.25.3
 pyarrow==16.1.0
@@ -69,7 +69,7 @@ typing_extensions==4.11.0
 tzdata==2024.1
 urllib3==2.2.1
 watchdog==4.0.1
-weasyprint==62.3
+# weasyprint removed (using fpdf2)
 webencodings==0.5.1
 websockets
 yt-dlp
